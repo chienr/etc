@@ -1,9 +1,9 @@
 Date format=[0];set date format,0:YYYY/MM/DD, 1:DD/MM/YYYY, 2:MM/DD/YYYY
 /**Note: "Date time" must be in accordance with the date format specified otherwise unable to set the date**/
-Date time=[2018/01/19-21:56:35];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss, mm/dd/yyyy-hh:mm:ss
+Date time=[2018/05/23-18:07:20];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss, mm/dd/yyyy-hh:mm:ss
 Modify datetime=[0];date time setting comfirm,0:not set 1: modify
 
-Default Mode=[0];set power-on default mode,0:Video Mode 1, 1:Video Mode 2, 2:Photo Mode
+Default Mode=[1];set power-on default mode,0:Video Mode 1, 1:Video Mode 2, 2:Photo Mode
 
 VIDEO MODE 1
 Movie Resolution=[0];0:1080p,1:720p,2:wvga
@@ -22,8 +22,8 @@ VIDEO MODE 2
 Movie Resolution=[0];0:1080p,1:720p,2:wvga
 Movie Frame Rate=[1];0:120fps,1:60fps,2:30fps,3:100fps,4:50fps,5:25fps,Note:120fps and 100fps only for 720P and WVGA.
 Movie Sound=[2];set movie sound,0:Mute,1:Low,2:Medium,3:High
-Movie Cycle time=[0];movie cycle time,0:3 minutes,1:5 minutes,2:10 minutes,3:20 minutes
-Movie Loop Recording=[0];set loop recording on or off, 0:off, 1:on
+Movie Cycle time=[2];movie cycle time,0:3 minutes,1:5 minutes,2:10 minutes,3:20 minutes
+Movie Loop Recording=[1];set loop recording on or off, 0:off, 1:on
 Movie Rotate=[1];set movie rotate,0:No,1:Inverted,2:90 degrees Right,3:90 degrees Left
 Movie Time stamp=[1];set date/time stamp on or off,0:off,1:on
 Movie Bitstream Algorithm=[0];set video bitstream,constant-bit-rate(CBR) or variable-bit-rate(VBR),0:CBR,1:VBR 
@@ -42,7 +42,7 @@ Auto Power off=[1];set system auto power off time when system pending,0:off,1:30
 Power off=[1];set system  power off time,0:delay,1:fast
 Power on=[1];set system  power on time,0:delay,1:fast
 Auto Record with External Power=[0];set connect with power to start video recording automatically,0:off,1:on
-One Power Button to Auto Record=[0];set press power key to start video recording automatically,0:off,1:on
+One Power Button to Auto Record=[1];set press power key to start video recording automatically,0:off,1:on
 LED=[1];set LED flicker when recording,0:off,1:on
 Charge from USB Host=[0];when connecting with USB host, charge camera or not,0:on,1:off
 Light frequency=[0];set light source frequency,0:50 HZ,1:60 HZ
