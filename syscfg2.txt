@@ -19,9 +19,9 @@ Movie Codec=[1];set video codec,0:H265 HEVC,1:H264 AVC
 Movie WDR =[0];set Wide Dynamic Range,0:Off,1:On
 
 VIDEO MODE 2
-Movie Resolution=[0];0:1080p,1:720p,2:wvga
+Movie Resolution=[1];0:1080p,1:720p,2:wvga
 Movie Frame Rate=[1];0:120fps,1:60fps,2:30fps,3:100fps,4:50fps,5:25fps,Note:120fps and 100fps only for 720P and WVGA.
-Movie Sound=[2];set movie sound,0:Mute,1:Low,2:Medium,3:High
+Movie Sound=[3];set movie sound,0:Mute,1:Low,2:Medium,3:High
 Movie Cycle time=[2];movie cycle time,0:3 minutes,1:5 minutes,2:10 minutes,3:20 minutes
 Movie Loop Recording=[1];set loop recording on or off, 0:off, 1:on
 Movie Rotate=[1];set movie rotate,0:No,1:Inverted,2:90 degrees Right,3:90 degrees Left
@@ -29,7 +29,7 @@ Movie Time stamp=[1];set date/time stamp on or off,0:off,1:on
 Movie Bitstream Algorithm=[0];set video bitstream,constant-bit-rate(CBR) or variable-bit-rate(VBR),0:CBR,1:VBR 
 Movie quality=[3];set movie quality,0:Highest,1:Higher,2:High,3:Standard,4:Low,5:Lower,6:Lowest
 Movie Codec=[1];set video codec,0:H265 HEVC,1:H264 AVC
-Movie WDR =[0];set Wide Dynamic Range,0:Off,1:On
+Movie WDR =[1];set Wide Dynamic Range,0:Off,1:On
 
 PHOTO MODE
 Photo Mode Capture Size=[0];set photo size,0:1920x1080,1:1280x720,2:848x480
