@@ -1,6 +1,6 @@
 Date format=[0];set date format,0:YYYY/MM/DD, 1:DD/MM/YYYY, 2:MM/DD/YYYY
 /**Note: "Date time" must be in accordance with the date format specified otherwise unable to set the date**/
-Date time=[2018/05/23-18:07:20];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss, mm/dd/yyyy-hh:mm:ss
+Date time=[2018/05/25-11:25:09];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss, mm/dd/yyyy-hh:mm:ss
 Modify datetime=[0];date time setting comfirm,0:not set 1: modify
 
 Default Mode=[1];set power-on default mode,0:Video Mode 1, 1:Video Mode 2, 2:Photo Mode
@@ -19,9 +19,9 @@ Movie Codec=[1];set video codec,0:H265 HEVC,1:H264 AVC
 Movie WDR =[0];set Wide Dynamic Range,0:Off,1:On
 
 VIDEO MODE 2
-Movie Resolution=[1];0:1080p,1:720p,2:wvga
+Movie Resolution=[0];0:1080p,1:720p,2:wvga
 Movie Frame Rate=[1];0:120fps,1:60fps,2:30fps,3:100fps,4:50fps,5:25fps,Note:120fps and 100fps only for 720P and WVGA.
-Movie Sound=[3];set movie sound,0:Mute,1:Low,2:Medium,3:High
+Movie Sound=[2];set movie sound,0:Mute,1:Low,2:Medium,3:High
 Movie Cycle time=[2];movie cycle time,0:3 minutes,1:5 minutes,2:10 minutes,3:20 minutes
 Movie Loop Recording=[1];set loop recording on or off, 0:off, 1:on
 Movie Rotate=[1];set movie rotate,0:No,1:Inverted,2:90 degrees Right,3:90 degrees Left
